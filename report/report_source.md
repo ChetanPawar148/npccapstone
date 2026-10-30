@@ -6,8 +6,8 @@
 
 ### Student Identification & Academic Details
 
-- **Student Name:** Rushikesh Valmik Nirmal
-- **PRN Number:** 2125UCSM1016
+- **Student Name:** Chetan Pawar
+- **PRN Number:** 2125UCSM1037
 - **Course:** Bachelor of Technology (B.Tech)
 - **Department:** Computer Science Engineering
 - **Specialization:** Cyber Security
@@ -222,16 +222,16 @@ Loopback packets (`127.0.0.0/8`) are processed entirely inside kernel memory by 
 ### 10.1. File Profile
 - **File Name:** `server.py`
 - **File Format:** Python 3 script, ASCII text executable
-- **Exact File Size:** `6,841 bytes` (167 lines)
+- **Exact File Size:** `6,975 bytes` (167 lines)
 - **Classification:** Educational Safe Bind-Shell Simulation (Harmless)
 
 ### 10.2. Cryptographic Fingerprints
 Hashes were mathematically computed locally using SHA-256, SHA-1, and MD5:
-- **MD5:** `6e36548c4b8dc744501b625a29a421fd`
-- **SHA-1:** `52fce0eda06fe5d2154a318f50ed2999b2f28a2f`
+- **MD5:** `d4d96fc789a35b6e7d9e1d8550e13bd9`
+- **SHA-1:** `7b4f6a48d47a7419fbe180ee8c2a36a5ae3fe9ca`
 - **SHA-256:**
   ```
-  a7a46232ddd918b56a2b656028fb024eccebdfd681cd05bb3f1a2f4c26098609
+  2c3ac082ac52046d06c822c86b10dfb9b08f1d55ea8f67c134071e3c64cc631c
   ```
 
 ---
@@ -242,7 +242,7 @@ Hashes were mathematically computed locally using SHA-256, SHA-1, and MD5:
 In compliance with operational security best practices, the student-created script was not uploaded directly to public multi-scanner clouds. Instead, a passive cryptographic hash search was conducted.
 
 ### 11.2. Empirical VirusTotal Result
-- **Search Query:** `a7a46232ddd918b56a2b656028fb024eccebdfd681cd05bb3f1a2f4c26098609`
+- **Search Query:** `2c3ac082ac52046d06c822c86b10dfb9b08f1d55ea8f67c134071e3c64cc631c`
 - **Observed Status:**
   > **"No existing VirusTotal report was available for the investigated file at the time of analysis."**
 - **Technical Interpretation:** Because this script was authored locally in an isolated academic laboratory and has never been indexed publicly, threat intelligence repositories contain no historical records.
@@ -265,8 +265,8 @@ In compliance with operational security best practices, the student-created scri
 | **Client Connection** | `client.py` connects locally | Connected to `127.0.0.1:54321` | `[Fig 09]` | Controlled bidirectional communication |
 | **Safe Command Execution**| Responds to `STATUS`/`HELP`; rejects others | Uptime returned; arbitrary commands blocked | `[Fig 10]` | Arbitrary command execution prevented |
 | **Traffic Trace** | TCP handshake captured on `lo` | `SYN -> SYN/ACK -> ACK` logged | `[Fig 11]` | Network activity inspectable via PCAP |
-| **File Attributes** | Python 3 script, 6,841 bytes | Verified via `ls -la` and `file` | `[Fig 12]` | File identified as benign simulation |
-| **SHA-256 Digest** | Deterministic 256-bit hash | `a7a46232ddd9...` calculated | `[Fig 13]` | Cryptographic integrity established |
+| **File Attributes** | Python 3 script, 6,975 bytes | Verified via `ls -la` and `file` | `[Fig 12]` | File identified as benign simulation |
+| **SHA-256 Digest** | Deterministic 256-bit hash | `2c3ac082ac52...` calculated | `[Fig 13]` | Cryptographic integrity established |
 | **Threat Intelligence** | Unindexed benign script | No existing VirusTotal report found | `[Fig 14]` | Unindexed benign script |
 | **Snapshot Reversion** | Hypervisor restores baseline disk | Restored `NPC_Capstone_Clean_State` | `[Fig 15]` | VM disk and state rolled back |
 | **Post-Recovery Audit** | Process terminated, socket closed | Zero traces of simulation in `ps`/`ss` | `[Fig 16]` | Complete system recovery confirmed |

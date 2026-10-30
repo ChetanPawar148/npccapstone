@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Academic PDF Report Generator for NPC Capstone Project
-Student: Rushikesh Valmik Nirmal | PRN: 2125UCSM1016
+Student: Chetan Pawar | PRN: 2125UCSM1037
 Sanjivani University, Kopargaon
 """
 
@@ -65,7 +65,7 @@ class NumberedCanvas(canvas.Canvas):
 
         # Running Footer
         self.line(54, 46, 8.5 * 72 - 54, 46)
-        self.drawString(54, 34, "Student: Rushikesh Valmik Nirmal | PRN: 2125UCSM1016")
+        self.drawString(54, 34, "Student: Chetan Pawar | PRN: 2125UCSM1037")
         page_str = f"Page {self._pageNumber} of {page_count}"
         self.drawRightString(8.5 * 72 - 54, 34, page_str)
         self.restoreState()
@@ -204,8 +204,8 @@ def build_pdf(filename):
 
     # Student metadata table card
     info_data = [
-        [Paragraph("<b>Submitted By:</b>", table_header), Paragraph("Rushikesh Valmik Nirmal", table_cell)],
-        [Paragraph("<b>PRN Number:</b>", table_header), Paragraph("<b>2125UCSM1016</b>", table_cell)],
+        [Paragraph("<b>Submitted By:</b>", table_header), Paragraph("Chetan Pawar", table_cell)],
+        [Paragraph("<b>PRN Number:</b>", table_header), Paragraph("<b>2125UCSM1037</b>", table_cell)],
         [Paragraph("<b>Program / Degree:</b>", table_header), Paragraph("Bachelor of Technology (B.Tech)", table_cell)],
         [Paragraph("<b>Department:</b>", table_header), Paragraph("Computer Science Engineering", table_cell)],
         [Paragraph("<b>Specialization:</b>", table_header), Paragraph("Cyber Security", table_cell)],
@@ -213,7 +213,7 @@ def build_pdf(filename):
         [Paragraph("<b>Academic Year:</b>", table_header), Paragraph("2026–2027", table_cell)],
         [Paragraph("<b>Subject:</b>", table_header), Paragraph("NPC (Network Programming & Cyber Security)", table_cell)],
         [Paragraph("<b>Project Type:</b>", table_header), Paragraph("Capstone Project Submission", table_cell)],
-        [Paragraph("<b>Repository:</b>", table_header), Paragraph("https://github.com/RushikeshNirmal45/npc-capstone", table_cell)]
+        [Paragraph("<b>Repository:</b>", table_header), Paragraph("https://github.com/ChetanPawar148/npccapstone", table_cell)]
     ]
     info_table = Table(info_data, colWidths=[140, 290])
     info_table.setStyle(TableStyle([
@@ -472,12 +472,12 @@ def build_pdf(filename):
 
     hash_table_data = [
         [Paragraph("<b>Cryptographic / File Property</b>", table_header), Paragraph("<b>Laboratory Server Script (server.py)</b>", table_header), Paragraph("<b>Laboratory Client Script (client.py)</b>", table_header)],
-        [Paragraph("File Size on Disk", table_cell), Paragraph("6,841 bytes", table_cell), Paragraph("2,814 bytes", table_cell)],
+        [Paragraph("File Size on Disk", table_cell), Paragraph("6,975 bytes", table_cell), Paragraph("2,872 bytes", table_cell)],
         [Paragraph("Source Line Count", table_cell), Paragraph("167 lines", table_cell), Paragraph("80 lines", table_cell)],
         [Paragraph("MIME / Format Classification", table_cell), Paragraph("Python script, ASCII text executable", table_cell), Paragraph("Python script, ASCII text executable", table_cell)],
-        [Paragraph("MD5 Hash Digest", table_cell), Paragraph("<code>6e36548c4b8dc744501b625a29a421fd</code>", table_cell), Paragraph("<code>6d6fb7393a31e632dbf44743cfe1d352</code>", table_cell)],
-        [Paragraph("SHA-1 Hash Digest", table_cell), Paragraph("<code>52fce0eda06fe5d2154a318f50ed2999b2f28a2f</code>", table_cell), Paragraph("<code>2a83ba6191c450ec780ad18de006dae4a9c5ce66</code>", table_cell)],
-        [Paragraph("SHA-256 Hash Digest", table_cell), Paragraph("<code>a7a46232ddd918b56a2b656028fb024eccebdfd681cd05bb3f1a2f4c26098609</code>", table_cell), Paragraph("<code>18ac3d4d60d01c33322a70036c1820768e7d3fc0bc37b3e60ad503236ac8f1fa</code>", table_cell)]
+        [Paragraph("MD5 Hash Digest", table_cell), Paragraph("<code>d4d96fc789a35b6e7d9e1d8550e13bd9</code>", table_cell), Paragraph("<code>221b49ef872dc7705cbc1400d55ce518</code>", table_cell)],
+        [Paragraph("SHA-1 Hash Digest", table_cell), Paragraph("<code>7b4f6a48d47a7419fbe180ee8c2a36a5ae3fe9ca</code>", table_cell), Paragraph("<code>2c36cdba0f98683c23734b20d769c6f4293591fb</code>", table_cell)],
+        [Paragraph("SHA-256 Hash Digest", table_cell), Paragraph("<code>2c3ac082ac52046d06c822c86b10dfb9b08f1d55ea8f67c134071e3c64cc631c</code>", table_cell), Paragraph("<code>e5724b85bf68128adb31f7af4abd38bf07fd1d8cda3aa07cf3f89ae71fc79993</code>", table_cell)]
     ]
     hash_tbl = Table(hash_table_data, colWidths=[130, 185, 185])
     hash_tbl.setStyle(TableStyle([
@@ -507,7 +507,7 @@ def build_pdf(filename):
         body_bold
     ))
     story.append(Paragraph(
-        "A passive hash search was conducted for SHA-256 digest <code>a7a46232ddd918b56a2b656028fb024eccebdfd681cd05bb3f1a2f4c26098609</code>. In strict compliance with official assignment reporting instructions, the findings are recorded as follows:",
+        "A passive hash search was conducted for SHA-256 digest <code>2c3ac082ac52046d06c822c86b10dfb9b08f1d55ea8f67c134071e3c64cc631c</code>. In strict compliance with official assignment reporting instructions, the findings are recorded as follows:",
         body_style
     ))
 
@@ -550,7 +550,7 @@ def build_pdf(filename):
         [Paragraph("8. Client Connect", table_cell), Paragraph("Client establishes local TCP stream", table_cell), Paragraph("Connected to 127.0.0.1:54321", table_cell), Paragraph("Fig 09", table_cell), Paragraph("Controlled local bidirectional stream", table_cell)],
         [Paragraph("9. Command Filter", table_cell), Paragraph("Allows STATUS/HELP; blocks OS calls", table_cell), Paragraph("STATUS returned; bash commands rejected", table_cell), Paragraph("Fig 09-10", table_cell), Paragraph("Arbitrary command execution prevented", table_cell)],
         [Paragraph("10. Loopback Trace", table_cell), Paragraph("TCP handshake & PSH data in PCAP", table_cell), Paragraph("SYN, SYN-ACK, ACK logged on lo", table_cell), Paragraph("Fig 11", table_cell), Paragraph("Socket traffic inspectable via PCAP", table_cell)],
-        [Paragraph("11. Static Hashing", table_cell), Paragraph("Deterministic SHA-256 fingerprint", table_cell), Paragraph("a7a46232ddd918b56a... computed", table_cell), Paragraph("Fig 12-13", table_cell), Paragraph("Cryptographic integrity verified", table_cell)],
+        [Paragraph("11. Static Hashing", table_cell), Paragraph("Deterministic SHA-256 fingerprint", table_cell), Paragraph("2c3ac082ac52046d06... computed", table_cell), Paragraph("Fig 12-13", table_cell), Paragraph("Cryptographic integrity verified", table_cell)],
         [Paragraph("12. Threat Lookup", table_cell), Paragraph("Unindexed academic script", table_cell), Paragraph("No existing report found on VirusTotal", table_cell), Paragraph("Fig 14", table_cell), Paragraph("Expected unindexed academic sample", table_cell)],
         [Paragraph("13. VM Restoration", table_cell), Paragraph("Discards disk modifications", table_cell), Paragraph("Restored to NPC_Capstone_Clean_State", table_cell), Paragraph("Fig 15", table_cell), Paragraph("Differencing disk successfully rolled back", table_cell)],
         [Paragraph("14. Recovery Audit", table_cell), Paragraph("Port closed; process eliminated", table_cell), Paragraph("ps and ss show zero traces of simulation", table_cell), Paragraph("Fig 16", table_cell), Paragraph("Complete system recovery confirmed", table_cell)]

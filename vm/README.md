@@ -1,7 +1,7 @@
 # Virtual Machine Management & Safe Storage Notice
 
-**Student Name:** Rushikesh Valmik Nirmal  
-**PRN:** 2125UCSM1016  
+**Student Name:** Chetan Pawar  
+**PRN:** 2125UCSM1037  
 **Institution:** Sanjivani University, Kopargaon  
 **Subject:** NPC Capstone Project  
 

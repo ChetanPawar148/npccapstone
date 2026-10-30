@@ -1,7 +1,7 @@
 # File Identification and Static Characteristics
 
-**Student Name:** Rushikesh Valmik Nirmal  
-**PRN:** 2125UCSM1016  
+**Student Name:** Chetan Pawar  
+**PRN:** 2125UCSM1037  
 **Course:** B.Tech Computer Science Engineering (Cyber Security)  
 **Institution:** Sanjivani University, Kopargaon  
 **Subject:** NPC Capstone Project  
@@ -24,7 +24,7 @@ Before dynamic execution in a malware sandbox, an investigator must perform stat
 | **File Classification** | Educational Bind-Shell Simulation Script | Code audit / Author specification |
 | **Malicious Nature** | **BENIGN / HARMLESS SIMULATION** | Confirmed by code inspection |
 | **File Format** | Python 3 source script, UTF-8 text executable | `file` utility / MIME detection |
-| **File Size (Bytes)** | `6,841 bytes` | `stat -c %s server.py` |
+| **File Size (Bytes)** | `6,975 bytes` | `stat -c %s server.py` |
 | **Line Count** | 167 lines | `wc -l server.py` |
 | **Interpreter Shebang** | `#!/usr/bin/env python3` | Header inspection (Line 1) |
 | **Bound Network Port** | TCP `54321` on `127.0.0.1` (Loopback only) | Socket configuration audit |
@@ -41,7 +41,7 @@ Before dynamic execution in a malware sandbox, an investigator must perform stat
 | **File Classification** | Educational Test Client Utility | Code audit / Author specification |
 | **Malicious Nature** | **BENIGN / HARMLESS UTILITY** | Confirmed by code inspection |
 | **File Format** | Python 3 source script, UTF-8 text executable | `file` utility / MIME detection |
-| **File Size (Bytes)** | `2,814 bytes` | `stat -c %s client.py` |
+| **File Size (Bytes)** | `2,872 bytes` | `stat -c %s client.py` |
 | **Line Count** | 80 lines | `wc -l client.py` |
 | **Interpreter Shebang** | `#!/usr/bin/env python3` | Header inspection (Line 1) |
 | **Target Address** | `127.0.0.1:54321` (Local loopback only) | Socket configuration audit |

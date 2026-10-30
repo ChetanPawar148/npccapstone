@@ -6,8 +6,8 @@
 [![Report](https://img.shields.io/badge/Report-PDF%20Available-orange.svg)](report/NPC_Capstone_Malware_Analysis_Sandbox_Report.pdf)
 
 > **Official Capstone Project Deliverable**  
-> **Student Name:** Rushikesh Valmik Nirmal  
-> **PRN:** 2125UCSM1016  
+> **Student Name:** Chetan Pawar  
+> **PRN:** 2125UCSM1037  
 > **Degree:** Bachelor of Technology (B.Tech) in Computer Science Engineering  
 > **Specialization:** Cyber Security  
 > **Institution:** Sanjivani University, Kopargaon  
@@ -136,7 +136,7 @@ To study socket binding and process triage ethically without weaponized code:
 | **`ss`** | `ss -tulpn \| grep 54321` | Protocol (`tcp`), socket state (`LISTEN`), local address (`127.0.0.1:54321`), PID |
 | **`lsof`** | `lsof -p <PID>` | Open file descriptors including standard streams (`/dev/pts/X`) and TCP socket handle |
 | **`tcpdump`**| `sudo tcpdump -i lo port 54321` | Captures TCP 3-way handshake, PSH-ACK application messages, and FIN-ACK teardown |
-| **`stat`** | `stat server.py` | Exact file size (6,841 bytes), inode number, and timestamps (atime, mtime, ctime) |
+| **`stat`** | `stat server.py` | Exact file size (6,975 bytes), inode number, and timestamps (atime, mtime, ctime) |
 | **`sha256sum`**| `sha256sum server.py client.py`| Computes deterministic cryptographic hashes for immutable file identification |
 
 ---
@@ -147,8 +147,8 @@ To study socket binding and process triage ethically without weaponized code:
 
 | File Name | File Size | MD5 Digest | SHA-256 Digest |
 | :--- | :--- | :--- | :--- |
-| **`server.py`** | 6,841 bytes | `6e36548c4b8dc744501b625a29a421fd` | `a7a46232ddd918b56a2b656028fb024eccebdfd681cd05bb3f1a2f4c26098609` |
-| **`client.py`** | 2,814 bytes | `6d6fb7393a31e632dbf44743cfe1d352` | `18ac3d4d60d01c33322a70036c1820768e7d3fc0bc37b3e60ad503236ac8f1fa` |
+| **`server.py`** | 6,975 bytes | `d4d96fc789a35b6e7d9e1d8550e13bd9` | `2c3ac082ac52046d06c822c86b10dfb9b08f1d55ea8f67c134071e3c64cc631c` |
+| **`client.py`** | 2,872 bytes | `221b49ef872dc7705cbc1400d55ce518` | `e5724b85bf68128adb31f7af4abd38bf07fd1d8cda3aa07cf3f89ae71fc79993` |
 
 ### VirusTotal Threat Intelligence Investigation
 - **Query Method:** Passive SHA-256 hash lookup (No files uploaded, preserving student privacy).

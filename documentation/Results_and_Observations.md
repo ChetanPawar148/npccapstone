@@ -1,7 +1,7 @@
 # Experimental Results and Observations Log
 
-**Student Name:** Rushikesh Valmik Nirmal  
-**PRN:** 2125UCSM1016  
+**Student Name:** Chetan Pawar  
+**PRN:** 2125UCSM1037  
 **Course:** B.Tech Computer Science Engineering (Cyber Security)  
 **Institution:** Sanjivani University, Kopargaon  
 **Subject:** NPC Capstone Project  
@@ -30,8 +30,8 @@ This document records the empirical results and observations from the malware an
 | **9. Client Connection Test** | `client.py` connects to `127.0.0.1:54321` | `[+] Connected successfully to 127.0.0.1:54321` | `[Fig 09]` | Controlled bidirectional communication established |
 | **10. Safe Command Processing**| Responds to `STATUS` / `HELP`; rejects system calls | Responded with uptime; rejected arbitrary inputs | `[Fig 10]` | Arbitrary command execution successfully prevented |
 | **11. Loopback Traffic Capture**| `tcpdump` logs 3-way handshake on `lo` | `SYN -> SYN/ACK -> ACK` logged on port `54321` | `[Fig 11]` | Local network activity inspectable via PCAP |
-| **12. Script Identification** | Python source script in laboratory folder | `server.py` (6,841 bytes, Python 3 text) | `[Fig 12]` | File identified as educational simulation |
-| **13. Cryptographic Hash** | Deterministic 256-bit hexadecimal string | `a7a46232ddd918b56a2b656028fb024eccebdfd681cd05bb3f1a2f4c26098609` | `[Fig 13]` | Cryptographic fingerprint verified via SHA-256 |
+| **12. Script Identification** | Python source script in laboratory folder | `server.py` (6,975 bytes, Python 3 text) | `[Fig 12]` | File identified as educational simulation |
+| **13. Cryptographic Hash** | Deterministic 256-bit hexadecimal string | `2c3ac082ac52046d06c822c86b10dfb9b08f1d55ea8f67c134071e3c64cc631c` | `[Fig 13]` | Cryptographic fingerprint verified via SHA-256 |
 | **14. VirusTotal Reputation**| No prior malicious report; 0 detections | No existing report or 0/72 vendor detections | `[Fig 14]` | Unindexed benign script; zero threat signatures |
 | **15. Snapshot Restoration** | Reverts disk to clean state | Restored `NPC_Capstone_Clean_State` successfully | `[Fig 15]` | VM disk and state rolled back to baseline |
 | **16. Post-Recovery Audit** | Port 54321 closed, PID terminated, files reverted | `ss` and `ps` show 0 traces of simulation | `[Fig 16]` | Complete system recovery confirmed |

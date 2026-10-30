@@ -1,7 +1,7 @@
 # Laboratory Directory
 
-**Student:** Rushikesh Valmik Nirmal  
-**PRN:** 2125UCSM1016  
+**Student:** Chetan Pawar  
+**PRN:** 2125UCSM1037  
 **Institution:** Sanjivani University, Kopargaon  
 **Course:** B.Tech CSE (Cyber Security)  
 

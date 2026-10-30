@@ -1,7 +1,7 @@
 # Virtual Machine Snapshot Creation and Recovery Guide
 
-**Student Name:** Rushikesh Valmik Nirmal  
-**PRN:** 2125UCSM1016  
+**Student Name:** Chetan Pawar  
+**PRN:** 2125UCSM1037  
 **Course:** B.Tech Computer Science Engineering (Cyber Security)  
 **Institution:** Sanjivani University, Kopargaon  
 **Subject:** NPC Capstone Project  

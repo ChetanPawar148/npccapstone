@@ -1,7 +1,7 @@
 # Safe Educational Bind-Shell Simulation
 
-**Author:** Rushikesh Valmik Nirmal  
-**PRN:** 2125UCSM1016  
+**Author:** Chetan Pawar  
+**PRN:** 2125UCSM1037  
 **Department:** Computer Science Engineering (Cyber Security), Sanjivani University  
 **Subject:** NPC Capstone Project — Malware Analysis Sandbox  
 
@@ -69,7 +69,7 @@ python3 server.py
 ```
 =================================================================
  NPC CAPSTONE: SAFE BIND-SHELL SIMULATION SERVER
- Author: Rushikesh Valmik Nirmal (PRN: 2125UCSM1016)
+ Author: Chetan Pawar (PRN: 2125UCSM1037)
 =================================================================
 [*] Initializing local TCP socket...
 [*] Binding strictly to loopback interface: 127.0.0.1:54321

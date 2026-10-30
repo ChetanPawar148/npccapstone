@@ -3,8 +3,8 @@
 ===============================================================================
 NPC CAPSTONE PROJECT: SAFE EDUCATIONAL BIND-SHELL SIMULATION (SERVER)
 ===============================================================================
-Student Name    : Rushikesh Valmik Nirmal
-PRN Number      : 2125UCSM1016
+Student Name    : Chetan Pawar
+PRN Number      : 2125UCSM1037
 Course          : B.Tech Computer Science Engineering (Cyber Security)
 Institution     : Sanjivani University, Kopargaon
 Subject         : NPC Capstone Project
@@ -44,7 +44,7 @@ SERVER_START_TIME = time.time()
 BANNER = """
 ======================================================
   NPC CAPSTONE LAB: SAFE BIND-SHELL SIMULATION v1.0
-  Author: Rushikesh Valmik Nirmal (PRN: 2125UCSM1016)
+  Author: Chetan Pawar (PRN: 2125UCSM1037)
   Status: Educational Simulation Active (Loopback Only)
   Type 'HELP' for supported safe commands.
 ======================================================
@@ -99,7 +99,7 @@ def run_server():
     """Initializes socket, listens on loopback, and processes test sessions."""
     print("=" * 65)
     print(" NPC CAPSTONE: SAFE BIND-SHELL SIMULATION SERVER")
-    print(" Author: Rushikesh Valmik Nirmal (PRN: 2125UCSM1016)")
+    print(" Author: Chetan Pawar (PRN: 2125UCSM1037)")
     print("=" * 65)
     print(f"[*] Initializing local TCP socket...")
     print(f"[*] Binding strictly to loopback interface: {HOST}:{PORT}")

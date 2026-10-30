@@ -1,7 +1,7 @@
 # VirusTotal Investigation and Reputation Findings
 
-**Student Name:** Rushikesh Valmik Nirmal  
-**PRN:** 2125UCSM1016  
+**Student Name:** Chetan Pawar  
+**PRN:** 2125UCSM1037  
 **Course:** B.Tech Computer Science Engineering (Cyber Security)  
 **Institution:** Sanjivani University, Kopargaon  
 **Subject:** NPC Capstone Project  
@@ -25,8 +25,8 @@ In accordance with responsible disclosure, privacy safeguards, and threat intell
 | **Investigated File Name** | `server.py` |
 | **File Classification** | Educational Safe Bind-Shell Simulation |
 | **Query Type** | Cryptographic Hash Search (SHA-256) |
-| **Investigated SHA-256 Hash** | `a7a46232ddd918b56a2b656028fb024eccebdfd681cd05bb3f1a2f4c26098609` |
-| **Query URL Target** | `https://www.virustotal.com/gui/search/a7a46232ddd918b56a2b656028fb024eccebdfd681cd05bb3f1a2f4c26098609` |
+| **Investigated SHA-256 Hash** | `2c3ac082ac52046d06c822c86b10dfb9b08f1d55ea8f67c134071e3c64cc631c` |
+| **Query URL Target** | `https://www.virustotal.com/gui/search/2c3ac082ac52046d06c822c86b10dfb9b08f1d55ea8f67c134071e3c64cc631c` |
 | **Analysis Status** | Verified against public threat intelligence |
 | **Detection Score** | `0 / 72+ engines` (Unindexed / Clean) |
 | **First-Seen Date** | None (File has not been indexed or submitted to public databases) |
